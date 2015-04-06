@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: FirefoxOS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-05 14:52+0000\n"
-"PO-Revision-Date: 2015-04-06 13:36+0200\n"
+"PO-Revision-Date: 2015-04-06 22:58+0200\n"
 "Last-Translator: Terrameijar <terrameijar@gmail.com>\n"
 "Language-Team: Ndebele <contact@mozilla-zimbabwe.org>\n"
 "Language: nd\n"
@@ -121,12 +121,10 @@ msgid "Connected"
 msgstr "Ixhumile"
 
 #: device-status-connected-phone
-#, fuzzy
 msgid "Connected to phone audio"
 msgstr "Ixhunywe ku-audio yefoni"
 
 #: device-status-connected-media
-#, fuzzy
 msgid "Connected to media audio"
 msgstr "Ixhunywe ku-audio ye media"
 
@@ -139,18 +137,15 @@ msgid "Unpair"
 msgstr "Susa ukumanyana okukhona"
 
 #: device-option-confirm
-#, fuzzy
 msgid "Confirm"
-msgstr "Qinisa"
+msgstr "Qinisekisa"
 
 #: device-option-unpair-confirmation
-#, fuzzy
 msgctxt "device-option-unpair-confirmation"
 msgid "Confirmation"
-msgstr "Isiqiniseko"
+msgstr "Isiqinisekiso"
 
 #: device-option-unpair-device
-#, fuzzy
 msgid "Unpair device?"
 msgstr "Ufuna ukususa ukumanyana le divayisi?"
 
@@ -160,9 +155,8 @@ msgstr "Xhuma"
 
 # This sounds too Zulu-ish
 #: device-option-disconnect
-#, fuzzy
 msgid "Disconnect"
-msgstr "Vala uxhumo"
+msgstr "Disconnect"
 
 #: search-for-device
 msgid "Searching for devices…"
@@ -193,9 +187,8 @@ msgid "New name"
 msgstr "Ibizo elitsha"
 
 #: error-pair-title
-#, fuzzy
 msgid "Unable to pair devices"
-msgstr "Amadivayisi awavumi ukuhambisana"
+msgstr "Amadivayisi awavumi ukumanyana"
 
 #: error-pair-pincode
 msgid "Unable to pair with the device. Check that the PIN is correct."
@@ -206,7 +199,6 @@ msgid "Unable to pair with the device. Too many requests."
 msgstr "Ayenelisi ukumanyana ledivayisi. Kulezicelo ezinengi kakhulu."
 
 #: error-connect-title
-#, fuzzy
 msgid "Unable to connect devices"
 msgstr "Amadivayisi awavumi ukuxhumana"
 
