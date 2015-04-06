@@ -1,0 +1,347 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FirefoxOS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-05 14:52+0000\n"
+"PO-Revision-Date: 2015-04-06 13:36+0200\n"
+"Last-Translator: Terrameijar <terrameijar@gmail.com>\n"
+"Language-Team: Ndebele <contact@mozilla-zimbabwe.org>\n"
+"Language: nd\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Accelerator-Marker: &\n"
+"X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1428319049.000000\n"
+
+#. # Bluetooth :: Settings
+#. # Bluetooth :: Devices Panel (reuse the string is partially)
+#. # LOCALIZATION NOTE (bluetooth-header): if you leave the original
+#. # en-US value "{{bluetooth}}" in the following string, the localization
+#. # will be automatically picked from the existing string with ID "bluetooth".
+#. # If you need to adapt your localization to the reduced space available
+#. # in headers, you can use a shorter string here.
+#: bluetooth-header
+msgid "{{bluetooth}}"
+msgstr "{{bluetooth}}"
+
+#: bluetooth-enable-msg
+msgid "Turn Bluetooth on to view devices in the area."
+msgstr "Vula iBluetooth ukuze ubone amanye amadivayisi aseduze."
+
+#: bluetooth-paired-devices
+msgid "Paired devices"
+msgstr "Amadivayisi ahambisanayo"
+
+#: bluetooth-devices-in-area
+msgid "Devices in the area"
+msgstr "Amadivayisi aseduzane"
+
+#: bluetooth-visible-to-all
+msgid "Visible to all"
+msgstr "Ikhanya kuwo wonke"
+
+#: bluetooth-name-maxlength-alert
+msgid "Your device name exceeds {{length}} characters. Please retry again."
+msgstr "Ibizo ledivayisi yakho ledlule amabala angu{{length}}. Zama njalo."
+
+#: bluetooth-address
+msgid "Bluetooth Address"
+msgstr "Ikheli ye-Bluetooth"
+
+#: bluetooth-address-unavailable
+msgid "Not available"
+msgstr "Ayikho"
+
+#: bt-status-nopaired
+msgid "No devices paired"
+msgstr "Akula madivayisi ahambisanayo"
+
+#: bt-status-turnoff
+msgid "Turned off"
+msgstr "Icitshiwe"
+
+#: bt-status-paired
+msgid "{[ plural(n) ]}"
+msgstr "{[ plural(n) ]}"
+
+#: bt-status-paired[zero]
+msgid "{{name}}"
+msgstr "{{name}}"
+
+#: bt-status-paired[one]
+msgctxt "bt-status-paired[one]"
+msgid "{{name}}, +{{n}} more"
+msgstr "{{name}}, +{{n}} amanye"
+
+#: bt-status-paired[two]
+msgctxt "bt-status-paired[two]"
+msgid "{{name}}, +{{n}} more"
+msgstr "{{name}}, +{{n}} amanye"
+
+#: bt-status-paired[few]
+msgctxt "bt-status-paired[few]"
+msgid "{{name}}, +{{n}} more"
+msgstr "{{name}}, +{{n}} amanye"
+
+#: bt-status-paired[many]
+msgctxt "bt-status-paired[many]"
+msgid "{{name}}, +{{n}} more"
+msgstr "{{name}}, +{{n}} amanye"
+
+#: bt-status-paired[other]
+msgctxt "bt-status-paired[other]"
+msgid "{{name}}, +{{n}} more"
+msgstr "{{name}}, +{{n}} amanye"
+
+#: device-status-tap-connect
+msgid "Tap to connect"
+msgstr "Thinta kancane ukuze uxhumeke"
+
+#: device-status-pairing
+msgid "Pairing with device…"
+msgstr "Isazama ukuxhumana ledivayisi…"
+
+#: device-status-waiting
+msgid "Waiting for other device…"
+msgstr "Ilindele enye idivayisi…"
+
+# Amanyene
+#: device-status-paired
+msgid "Paired"
+msgstr "Asemanyene"
+
+#: device-status-connecting
+msgid "Connecting…"
+msgstr "Isaxhuma…"
+
+#: device-status-connected
+msgid "Connected"
+msgstr "Ixhumile"
+
+#: device-status-connected-phone
+#, fuzzy
+msgid "Connected to phone audio"
+msgstr "Ixhunywe ku-audio yefoni"
+
+#: device-status-connected-media
+#, fuzzy
+msgid "Connected to media audio"
+msgstr "Ixhunywe ku-audio ye media"
+
+#: device-status-connected-phone-media
+msgid "Connected to phone/media audio"
+msgstr "Ixhunywe ku-audio yefoni/eyemedia"
+
+#: device-option-unpair
+msgid "Unpair"
+msgstr "Susa ukumanyana okukhona"
+
+#: device-option-confirm
+#, fuzzy
+msgid "Confirm"
+msgstr "Qinisa"
+
+#: device-option-unpair-confirmation
+#, fuzzy
+msgctxt "device-option-unpair-confirmation"
+msgid "Confirmation"
+msgstr "Isiqiniseko"
+
+#: device-option-unpair-device
+#, fuzzy
+msgid "Unpair device?"
+msgstr "Ufuna ukususa ukumanyana le divayisi?"
+
+#: device-option-connect
+msgid "Connect"
+msgstr "Xhuma"
+
+# This sounds too Zulu-ish
+#: device-option-disconnect
+#, fuzzy
+msgid "Disconnect"
+msgstr "Vala uxhumo"
+
+#: search-for-device
+msgid "Searching for devices…"
+msgstr "Isadinga amadivayisi…"
+
+#: search-device
+msgid "Search for devices"
+msgstr "Dinga amadivayisi"
+
+#: rename-device
+msgid "Rename my device"
+msgstr "Tshintsha ibizo ledivayisi yami"
+
+#: unnamed-device
+msgid "Unknown device"
+msgstr "Idivayisi engaziwayo"
+
+#: change-phone-name
+msgid "Change phone name"
+msgstr "Tshintsha ibizo llefoni"
+
+#: change-phone-name-desc
+msgid "Change the name of your device as it appears in your computer"
+msgstr "Tshintsha ibizo ledivayisi elizakhanya e khomputheni"
+
+#: bluetooth-new-name
+msgid "New name"
+msgstr "Ibizo elitsha"
+
+#: error-pair-title
+#, fuzzy
+msgid "Unable to pair devices"
+msgstr "Amadivayisi awavumi ukuhambisana"
+
+#: error-pair-pincode
+msgid "Unable to pair with the device. Check that the PIN is correct."
+msgstr "Ayenelisi ukumanyana ledivayisi. Hlola ukuthi i-PIN iqondile."
+
+#: error-pair-toofast
+msgid "Unable to pair with the device. Too many requests."
+msgstr "Ayenelisi ukumanyana ledivayisi. Kulezicelo ezinengi kakhulu."
+
+#: error-connect-title
+#, fuzzy
+msgid "Unable to connect devices"
+msgstr "Amadivayisi awavumi ukuxhumana"
+
+#: error-connect-msg
+msgid ""
+"Check that the device you’re trying to connect with is still in range and "
+"has Bluetooth turned on."
+msgstr ""
+"Hlola ukuthi idivayisi ozama ukuyixhuma ilokhe iseduze lokuthi i-Bluetooth "
+"yayo ilayithiwe."
+
+#: unpair-title
+msgid "Unpair a connected device?"
+msgstr "Susa ukumanyana ledivayisi exhunyiweyo na?"
+
+#: unpair-msg
+msgid ""
+"You are currently connected to this device. Unpairing will also disconnect "
+"from it."
+msgstr ""
+"Uxhumene le divayisi le. Uku susa ukumanyana kuzasusa lokuxhumana okukhona."
+
+#. # Bluetooth :: Confirmation Dialog
+#: bluetooth
+msgid "Bluetooth"
+msgstr "I-Bluetooth"
+
+#: confirmation
+msgctxt "confirmation"
+msgid "Confirmation"
+msgstr "Isiqinisekiso"
+
+# Be sure to add the "I-" in "I-Bluetooth"
+#: bluetooth-status-description
+msgid "Bluetooth is disabled"
+msgstr "I-Bluetooth icitshiwe"
+
+#: turn-bluetooth-on
+msgid "Do you want to turn Bluetooth on?"
+msgstr "Uyafuna ukuvula i-Bluetooth?"
+
+#: cancel
+msgid "Cancel"
+msgstr "Khansela"
+
+#: turn-on
+msgid "Turn On"
+msgstr "Vula"
+
+#: error-transfer-title
+msgid "Bluetooth file transfer failed"
+msgstr "Ukuhanjiswa kwefayili nge-Bluetooth akuphumelelanga"
+
+#: error-transfer-settings
+msgid ""
+"Bluetooth file transfer failed. Check that the Bluetooth settings are "
+"correct."
+msgstr ""
+"Ukuhanjiswa kwefayili nge-Bluetooth akuphumelelanga. Hlolisisa ukuthi "
+"amasethingi e-Bluetooth aqondile."
+
+#: ok
+msgid "OK"
+msgstr "Kulungile"
+
+#. # Bluetooth :: Pair View
+#: pair
+msgid "Pair"
+msgstr "Manyanisa"
+
+#: active-pair
+msgid "Confirm devices to pair"
+msgstr "Qinisekisa amadivayisi azamanyaniswa"
+
+#: active-pair-confirmation
+msgid ""
+"To pair with {{device}}, make sure that both devices currently have the "
+"following PIN displayed:"
+msgstr ""
+"Ukuze umanyanise le {{device}}, hlolisisa ukuthi amadivayisi womabili "
+"atshengisa i-PIN ethi:"
+
+#: active-pair-pincode
+msgid "To pair with {{device}}, enter the PIN on the device."
+msgstr "Ukuze umanyanise le {{device}}, faka i PIN kudivayisi."
+
+#: active-pair-passkey
+msgid "To pair with {{device}}, enter the passkey on the device."
+msgstr "Ukuze umanyanise le {{device}}, faka i-passkey kudivayisi."
+
+#: passive-pair
+msgctxt "passive-pair"
+msgid "Bluetooth pairing request"
+msgstr "Isicelo sokumanyana nge-Bluetooth"
+
+#: passive-pair-confirmation
+msgid ""
+"{{device}} would like to pair with this phone. To accept, make sure that "
+"both devices currently have the following PIN displayed:"
+msgstr ""
+"I-{{device}} ingathanda ukumanyana le foni le. Ukuze wamukele lesi sicelo, "
+"qiniseka ukuthi womabili amadivayisi ale PIN le elandelayo:"
+
+#: passive-pair-pincode
+msgid ""
+"{{device}} would like to pair with this phone. To accept, enter the PIN on "
+"the device."
+msgstr ""
+"I-{{device}} ingathanda ukumanyana le foni le. Ukuze wamukele lesi sicelo, "
+"faka i PIN kudivayisi."
+
+#: passive-pair-passkey
+msgid ""
+"{{device}} would like to pair with this phone. To accept, enter the passkey "
+"on the device."
+msgstr ""
+"I-{{device}} ingathanda ukumanyaniswa le foni le. Ukuze wamukele, faka i-"
+"passkey kudivayisi."
+
+#: pair-view-title
+msgid "Bluetooth Request From"
+msgstr "Isicelo se-Bluetooth Esivela ku "
+
+#. # Bluetooth :: Pair Manager
+#: bluetooth-pairing-request-now-title
+msgctxt "bluetooth-pairing-request-now-title"
+msgid "Bluetooth pairing request"
+msgstr "Isicelo sokumanyaniswa nge-Bluetooth"
+
+#: pairing-request-timeout-title
+msgid "Bluetooth Pairing Request"
+msgstr "Isicelo Sokumanyaniswa Nge-Bluetooth"
+
+#: pairing-request-timeout-description
+msgid "Bluetooth pairing request expired. Try to pair again."
+msgstr ""
+"Isicelo sokumanyanisa nge-Bluetooth siphelelwe yisikhathi. Phinda uzame "
+"ukumanyanisa futhi."
