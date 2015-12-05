@@ -1,19 +1,18 @@
-#. extracted from ./apps/keyboard/keyboard.properties
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-11 19:45+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-05-28 23:37+0200\n"
 "Language: nd\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.13.0-alpha1\n"
+"X-Generator: Poedit 1.8.1\n"
 "X-Accelerator-Marker: &\n"
 "X-Merge-On: location\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 
 #: title
 msgid "Keyboard"
@@ -25,20 +24,21 @@ msgstr ""
 
 #: ok
 msgid "OK"
-msgstr ""
+msgstr "Kulungile"
 
 #: keyboardSettings
 msgid "Keyboard settings"
 msgstr ""
 
+# Khansela could be a good bastardised word to use
 #: cancel
 msgid "Cancel"
-msgstr ""
+msgstr "Yekela"
 
 #: delete
 msgctxt "delete"
 msgid "Delete"
-msgstr ""
+msgstr "Citsha"
 
 #: vibration
 msgid "Vibration"
@@ -58,11 +58,11 @@ msgstr ""
 
 #: userDictionary
 msgid "User dictionary"
-msgstr ""
+msgstr "Isichazamazwi "
 
 #: handwritingKeyboard
 msgid "Handwriting"
-msgstr ""
+msgstr "Bhala Ngesandla"
 
 #: strokeWidth
 msgid "Stroke Width"
@@ -93,7 +93,7 @@ msgstr ""
 
 #: basicLayoutKey2.ariaLabel
 msgid "letters"
-msgstr ""
+msgstr "amabala"
 
 #: upperCaseKey2.ariaLabel
 msgid "shift"
@@ -161,29 +161,29 @@ msgstr ""
 
 #: userDictionaryAddNow
 msgid "Add a word now."
-msgstr ""
+msgstr "Faka ibala khathesi"
 
 #: userDictionaryAddButton.ariaLabel
 msgid "add word"
-msgstr ""
+msgstr "faka ibala"
 
 #: userDictionaryAdd
 msgid "Add Word"
-msgstr ""
+msgstr "Faka ibala"
 
 #: userDictionaryEdit
 msgid "Edit Word"
-msgstr ""
+msgstr "Tshintsha Ibala"
 
 #: userDictionarySaveButton
 msgid "Save"
-msgstr ""
+msgstr "Gcina"
 
 #: userDictionaryDeleteButton
 msgctxt "userDictionaryDeleteButton"
 msgid "Delete"
-msgstr ""
+msgstr "Citsha"
 
 #: userDictionaryDeletePrompt
 msgid "Delete word “{{word}}”?"
-msgstr ""
+msgstr "Citsha ibala \"{{ibala}}\"?"
