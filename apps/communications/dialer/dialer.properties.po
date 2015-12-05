@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-11 19:45+0000\n"
-"PO-Revision-Date: 2015-12-05 03:50+0200\n"
+"PO-Revision-Date: 2015-12-05 03:58+0200\n"
 "Language: nd\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -655,7 +655,7 @@ msgstr ""
 
 #: emMmiErrorPasswordIncorrect
 msgid "Incorrect Password"
-msgstr ""
+msgstr "Iphasiwedi kayiqondanga"
 
 #: emMmiErrorNotSupported
 msgid "Invalid or Unsupported MMI Code"
@@ -671,23 +671,23 @@ msgstr ""
 
 #: emMmiErrorBadPuk
 msgid "The PUK you typed is not correct"
-msgstr ""
+msgstr "iPUK oyifakileyo kayiqondanga"
 
 #: emMmiErrorBadPin
 msgid "The old PIN you typed is not correct."
-msgstr ""
+msgstr "iPIN yakudala oyifakileyo kayiqondanga"
 
 #: emMmiErrorNeedPuk2
 msgid "Type PUK2 to unblock SIM card"
-msgstr ""
+msgstr "Faka i PUK ukuze uvule i SIM"
 
 #: emMmiErrorMismatchPin
 msgid "The PINs you typed do not match"
-msgstr ""
+msgstr "Ama PIN owafakileyo kawahambelani"
 
 #: emMmiErrorInvalidPin
 msgid "Type a PIN that is 4 to 8 numbers"
-msgstr ""
+msgstr "Faka iPIN engamabala angu 4 kusiya ku 8"
 
 #: emMmiErrorNeedsPuk
 msgid "Your SIM card is PUK-locked"
@@ -756,7 +756,7 @@ msgstr ""
 
 #: emMmiErrorSimBlocked
 msgid "Maximum number of retries exceeded. SIM blocked"
-msgstr ""
+msgstr "Usuzame kanengi. ISIM isivaliwe"
 
 #. # RIL errno
 #: RadioNotAvailable
@@ -769,7 +769,7 @@ msgstr ""
 
 #: PasswordIncorrect
 msgid "Password incorrect"
-msgstr ""
+msgstr "Iphasiwedi kayiqondanga"
 
 #: SimPin2
 msgid "SIM PIN2"
