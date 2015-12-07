@@ -1,12 +1,8 @@
-#. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
-#. # Unlock Codes
-#. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
-#. extracted from ./apps/ftu/ftu.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-19 18:45+0000\n"
+"POT-Creation-Date: 2015-12-07 16:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,9 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.13.0-rc1\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Pootle-Path: /nd/firefoxos/apps/ftu/ftu.properties.po\n"
+"X-Pootle-Revision: 1198167\n"
 
 #: pincode2
 msgid "Enter PIN code"
@@ -575,6 +571,7 @@ msgid "Security"
 msgstr ""
 
 #: securityNone
+msgctxt "securityNone"
 msgid "None"
 msgstr ""
 
@@ -705,20 +702,12 @@ msgstr ""
 msgid "SIM card"
 msgstr ""
 
-#: importFb2
-msgid "Facebook"
-msgstr ""
-
 #: importOutlook
 msgid "Outlook"
 msgstr ""
 
 #: importGmail
 msgid "Gmail"
-msgstr ""
-
-#: fb-checking
-msgid "… checking"
 msgstr ""
 
 #: notImportedYet
@@ -729,42 +718,6 @@ msgstr ""
 msgid "Other accounts"
 msgstr ""
 
-#: afterFbImport
-msgid "You can import and edit Facebook friends anytime in Contacts settings"
-msgstr ""
-
-#: facebook-import-msg
-msgid "{[ plural(imported) ]}"
-msgstr ""
-
-#: facebook-import-msg[zero]
-msgid "No friends imported (out of {{total}})"
-msgstr ""
-
-#: facebook-import-msg[one]
-msgid "One friend imported (out of {{total}})"
-msgstr ""
-
-#: facebook-import-msg[two]
-msgctxt "facebook-import-msg[two]"
-msgid "{{imported}}/{{total}} friends imported"
-msgstr ""
-
-#: facebook-import-msg[few]
-msgctxt "facebook-import-msg[few]"
-msgid "{{imported}}/{{total}} friends imported"
-msgstr ""
-
-#: facebook-import-msg[many]
-msgctxt "facebook-import-msg[many]"
-msgid "{{imported}}/{{total}} friends imported"
-msgstr ""
-
-#: facebook-import-msg[other]
-msgctxt "facebook-import-msg[other]"
-msgid "{{imported}}/{{total}} friends imported"
-msgstr ""
-
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 #. # Fxa Intro
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
@@ -772,7 +725,7 @@ msgstr ""
 msgid "Firefox Accounts"
 msgstr ""
 
-#: fxa-upsell.innerHTML
+#: fxa-upsell
 msgid ""
 "A Firefox Account lets you find a lost phone and buy apps from the Firefox "
 "Marketplace."
@@ -825,10 +778,6 @@ msgid ""
 "publish the feedback on its websites, and to distribute the feedback."
 msgstr ""
 
-#: about-other
-msgid "Other"
-msgstr ""
-
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 #. # SIM mandatory
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
@@ -850,54 +799,44 @@ msgid ""
 "to make our products better, faster and more responsive."
 msgstr ""
 
-#: learn-more-telemetry2.innerHTML
-msgid ""
-"Learn more at <a href=\"{{href}}\" class=\"{{className}}\">{{textContent}}</"
-"a>"
+#: learn-more-telemetry2
+msgid "Learn more at <a>{{url}}</a>"
 msgstr ""
 
-#: learn-more-information2.innerHTML
-msgid ""
-"Learn how Mozilla handles your information at <a href=\"{{href}}\" class="
-"\"{{className}}\">{{textContent}}</a>"
+#: learn-more-information2
+msgid "Learn how Mozilla handles your information at <a>{{url}}</a>"
 msgstr ""
 
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 #. # OS privacy
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
-#: htmlWelcome2.innerHTML
+#: htmlWelcome2
 msgid ""
-"Welcome to <a href=\"{{href}}\" class=\"{{className}}\">{{textContent}}</a>, "
-"the free and open source operating system from Mozilla. Our mission is to "
-"promote openness, innovation and opportunity by keeping the power of the Web "
-"in your hands."
+"Welcome to <a>{{brandShortName}}</a>, the free and open source operating "
+"system from Mozilla. Our mission is to promote openness, innovation and "
+"opportunity by keeping the power of the Web in your hands."
 msgstr ""
 
-#: htmlWelcome-link
-msgctxt "htmlWelcome-link"
-msgid "{{brandShortName}}"
-msgstr ""
-
-#: helpImprove2.innerHTML
+#: helpImprove2
 msgid ""
 "You can help us improve our products and services by automatically sending "
-"analytics data. See our <a href=\"{{href}}\" class="
-"\"{{className}}\">{{textContent}}</a> to learn how we handle data from your "
-"device."
+"analytics data. See our <a>Privacy Notice</a> to learn how we handle data "
+"from your device."
 msgstr ""
 
-#: helpImprove-link
-msgid "Privacy Notice"
-msgstr ""
-
-#: learn-more-privacy2.innerHTML
+#: helpImprove3
 msgid ""
-"Learn how Mozilla handles your information in our <a href=\"{{href}}\" class="
-"\"{{className}}\">{{textContent}}</a>."
+"Help us improve our products and services by automatically sending analytics "
+"data."
 msgstr ""
 
-#: learn-more-privacy-link
-msgid "privacy policy"
+#: learn-more-privacy2
+msgid ""
+"Learn how Mozilla handles your information in our <a>privacy policy</a>."
+msgstr ""
+
+#: learn-more-privacy3
+msgid "Read our <a>Privacy Notice</a>"
 msgstr ""
 
 #: aboutBrowser
@@ -951,13 +890,29 @@ msgstr ""
 msgid "{{privacy-marketplace}}"
 msgstr ""
 
-#: privacy-eme
-msgid "EverythingMe"
+#: basicMetricsRadio
+msgid "Basic"
 msgstr ""
 
-#. # please don't translate the brand name
-#: privacy-e-me.title
-msgid "{{privacy-e-me}}"
+#: enhancedMetricsRadio
+msgid "Enhanced"
+msgstr ""
+
+#: noneMetricsRadio
+msgctxt "noneMetricsRadio"
+msgid "None"
+msgstr ""
+
+#: basicMetricsExplain
+msgid "Send app usage and error reports."
+msgstr ""
+
+#: enhancedMetricsExplain
+msgid "Send Basic report plus diagnostic information."
+msgstr ""
+
+#: noneMetricsExplain
+msgid "Do not send any data."
 msgstr ""
 
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
@@ -1032,6 +987,41 @@ msgid "Let’s do it!"
 msgstr ""
 
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
+#. # Late Customization
+#. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
+#: late-customization
+msgid "Free Apps"
+msgstr ""
+
+#: late-customization-downloading-message
+msgid ""
+"{{carrierName}} is offering free apps to help get you started. They will "
+"download <em>at no charge</em> while you finish setting up your phone."
+msgstr ""
+
+#: late-customization-download-later
+msgid ""
+"{{carrierName}} is offering free apps to help get you started. You can "
+"download them <em>at no charge</em>."
+msgstr ""
+
+#: late-customization-downloading-message-default
+msgid ""
+"Your carrier is offering free apps to help get you started. They will "
+"download <em>at no charge</em> while you finish setting up your phone."
+msgstr ""
+
+#: late-customization-download-later-default
+msgid ""
+"Your carrier is offering free apps to help get you started. You can download "
+"them <em>at no charge</em>."
+msgstr ""
+
+#: late-customization-download-later-marketplace
+msgid "Find these apps and many more when you visit Marketplace!"
+msgstr ""
+
+#. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 #. # Tutorial
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 #. # LOCALIZATION NOTE(tutorial): The following string is spoken by screen readers
@@ -1058,10 +1048,10 @@ msgstr ""
 msgid "Two fingers swipe up from the bottom edge to trigger card view."
 msgstr ""
 
-#: tutorial-vertical-scroll-v2-tiny
+#: tutorial-homescreen-tiny
 msgid ""
-"Swipe up and down to browse your apps and bookmarks. Tap and hold an icon to "
-"delete, move, or edit it."
+"Swipe up and down to browse your apps. Tap and hold an icon to delete, move, "
+"or edit it."
 msgstr ""
 
 #: tutorial-notifications-v2-tiny
@@ -1082,12 +1072,6 @@ msgstr ""
 msgid ""
 "Your bookmarks have been moved to the homescreen. When editing, tap a "
 "bookmark to edit or rename it."
-msgstr ""
-
-#: tutorial-app-grouping-tiny
-msgid ""
-"Tap to expand and collapse app groups. Drag an app into a new space to "
-"create a group."
 msgstr ""
 
 #. #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#

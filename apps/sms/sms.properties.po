@@ -1,9 +1,8 @@
-#. extracted from ./apps/sms/sms.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-01 05:45+0000\n"
+"POT-Creation-Date: 2015-12-07 16:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,9 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.13.0-rc1\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Pootle-Path: /nd/firefoxos/apps/sms/sms.properties.po\n"
+"X-Pootle-Revision: 674154\n"
 
 #. # Headers
 #: messages
@@ -31,7 +30,6 @@ msgstr ""
 
 #. # Edit Mode
 #: edit
-msgctxt "edit"
 msgid "Edit"
 msgstr ""
 
@@ -54,6 +52,18 @@ msgstr ""
 
 #: delete
 msgid "Delete"
+msgstr ""
+
+#: delete-thread
+msgid "Delete thread"
+msgstr ""
+
+#: mark-as-read
+msgid "Mark as read"
+msgstr ""
+
+#: mark-as-unread
+msgid "Mark as unread"
 msgstr ""
 
 #: deleting-messages
@@ -148,6 +158,7 @@ msgid "Select Messages"
 msgstr ""
 
 #: settings
+msgctxt "settings"
 msgid "Settings"
 msgstr ""
 
@@ -173,8 +184,8 @@ msgctxt "message"
 msgid "Message"
 msgstr ""
 
-#: messagesInput_placeholder
-msgctxt "messagesInput_placeholder"
+#: messagesInput.title
+msgctxt "messagesInput.title"
 msgid "Message"
 msgstr ""
 
@@ -208,6 +219,7 @@ msgid ""
 msgstr ""
 
 #: newMessage
+msgctxt "newMessage"
 msgid "New message"
 msgstr ""
 
@@ -366,14 +378,6 @@ msgstr ""
 msgid "Message size:"
 msgstr ""
 
-#: report-dateTimeFormat12
-msgid "%e %B %Y, {{shortTimeFormat12}}"
-msgstr ""
-
-#: report-dateTimeFormat24
-msgid "%e %B %Y, {{shortTimeFormat24}}"
-msgstr ""
-
 #: report-to-title
 msgid "To"
 msgstr ""
@@ -400,6 +404,10 @@ msgstr ""
 
 #: message-resend
 msgid "Resend"
+msgstr ""
+
+#: message-lateness
+msgid "Lateness:"
 msgstr ""
 
 #. # Search functionality
@@ -438,23 +446,6 @@ msgid ", "
 msgstr ""
 
 #. # Modal Dialogs
-#: replace-draft
-msgid "Replace existing Draft"
-msgstr ""
-
-#: save-as-draft
-msgid "Save as Draft"
-msgstr ""
-
-#: discard-message
-msgctxt "discard-message"
-msgid "Discard"
-msgstr ""
-
-#: discard-sms
-msgid "Are you sure you want to discard this message?"
-msgstr ""
-
 #: discard-new-message
 msgid "Discard the message you’re composing and open the new message?"
 msgstr ""
@@ -468,15 +459,75 @@ msgid "Resend this message"
 msgstr ""
 
 #: deleteMessage-confirmation
+msgctxt "deleteMessage-confirmation"
 msgid "Delete selected message?"
 msgstr ""
 
-#: deleteMessages-confirmation
-msgid "Delete selected messages?"
+#: deleteMessages-confirmation-message
+msgctxt "deleteMessages-confirmation-message"
+msgid "{[ plural(n) ]}"
 msgstr ""
 
-#: deleteThreads-confirmation2
-msgid "Delete selected message threads?"
+#: deleteMessages-confirmation-message[zero]
+msgid "Please select messages to be deleted."
+msgstr ""
+
+#: deleteMessages-confirmation-message[one]
+msgctxt "deleteMessages-confirmation-message[one]"
+msgid "Delete selected message?"
+msgstr ""
+
+#: deleteMessages-confirmation-message[two]
+msgctxt "deleteMessages-confirmation-message[two]"
+msgid "Delete {{n}} selected messages?"
+msgstr ""
+
+#: deleteMessages-confirmation-message[few]
+msgctxt "deleteMessages-confirmation-message[few]"
+msgid "Delete {{n}} selected messages?"
+msgstr ""
+
+#: deleteMessages-confirmation-message[many]
+msgctxt "deleteMessages-confirmation-message[many]"
+msgid "Delete {{n}} selected messages?"
+msgstr ""
+
+#: deleteMessages-confirmation-message[other]
+msgctxt "deleteMessages-confirmation-message[other]"
+msgid "Delete {{n}} selected messages?"
+msgstr ""
+
+#: deleteThreads-confirmation-message
+msgctxt "deleteThreads-confirmation-message"
+msgid "{[ plural(n) ]}"
+msgstr ""
+
+#: deleteThreads-confirmation-message[zero]
+msgid "Please select message threads to be deleted."
+msgstr ""
+
+#: deleteThreads-confirmation-message[one]
+msgid "Delete selected message thread?"
+msgstr ""
+
+#: deleteThreads-confirmation-message[two]
+msgctxt "deleteThreads-confirmation-message[two]"
+msgid "Delete {{n}} selected message threads?"
+msgstr ""
+
+#: deleteThreads-confirmation-message[few]
+msgctxt "deleteThreads-confirmation-message[few]"
+msgid "Delete {{n}} selected message threads?"
+msgstr ""
+
+#: deleteThreads-confirmation-message[many]
+msgctxt "deleteThreads-confirmation-message[many]"
+msgid "Delete {{n}} selected message threads?"
+msgstr ""
+
+#: deleteThreads-confirmation-message[other]
+msgctxt "deleteThreads-confirmation-message[other]"
+msgid "Delete {{n}} selected message threads?"
 msgstr ""
 
 #: new-message-notice-text
@@ -561,42 +612,41 @@ msgstr ""
 
 #. #LOCALIZATION NOTE (fdnErrorBody): the English translation does not need the
 #. # actual number of phone numbers. If your translation needs it, you can still add it
-#. # using the parameter {{ n }}. Also take into account that you could add HTML so be
-#. # careful with the content, it may affect to the whole app.
-#: fdnErrorBody.innerHTML
-msgctxt "fdnErrorBody.innerHTML"
+#. # using the parameter {{ n }}.
+#: fdnErrorBody
+msgctxt "fdnErrorBody"
 msgid "{[ plural(n) ]}"
 msgstr ""
 
-#: fdnErrorBody.innerHTML[one]
+#: fdnErrorBody[one]
 msgid ""
 "FDN (Fixed Dialing Numbers) is activated. Make sure the SMS center and the "
 "following recipient are in your FDN list:"
 msgstr ""
 
-#: fdnErrorBody.innerHTML[two]
-msgctxt "fdnErrorBody.innerHTML[two]"
+#: fdnErrorBody[two]
+msgctxt "fdnErrorBody[two]"
 msgid ""
 "FDN (Fixed Dialing Numbers) is activated. Make sure the SMS center and the "
 "following recipients are in your FDN list:"
 msgstr ""
 
-#: fdnErrorBody.innerHTML[few]
-msgctxt "fdnErrorBody.innerHTML[few]"
+#: fdnErrorBody[few]
+msgctxt "fdnErrorBody[few]"
 msgid ""
 "FDN (Fixed Dialing Numbers) is activated. Make sure the SMS center and the "
 "following recipients are in your FDN list:"
 msgstr ""
 
-#: fdnErrorBody.innerHTML[many]
-msgctxt "fdnErrorBody.innerHTML[many]"
+#: fdnErrorBody[many]
+msgctxt "fdnErrorBody[many]"
 msgid ""
 "FDN (Fixed Dialing Numbers) is activated. Make sure the SMS center and the "
 "following recipients are in your FDN list:"
 msgstr ""
 
-#: fdnErrorBody.innerHTML[other]
-msgctxt "fdnErrorBody.innerHTML[other]"
+#: fdnErrorBody[other]
+msgctxt "fdnErrorBody[other]"
 msgid ""
 "FDN (Fixed Dialing Numbers) is activated. Make sure the SMS center and the "
 "following recipients are in your FDN list:"
@@ -756,28 +806,12 @@ msgstr ""
 msgid "Replace attachment"
 msgstr ""
 
-#: unsent-message-title
-msgid "Unsent Message"
-msgstr ""
-
-#: unsent-message-description
-msgid ""
-"Your previous message was not sent. Do you want to edit the unsent message "
-"or discard it and continue?"
-msgstr ""
-
-#: unsent-message-option-edit
-msgctxt "unsent-message-option-edit"
-msgid "Edit"
-msgstr ""
-
-#: unsent-message-option-discard
-msgctxt "unsent-message-option-discard"
-msgid "Discard"
-msgstr ""
-
 #: message-options
 msgid "Message options"
+msgstr ""
+
+#: thread-options
+msgid "Thread options"
 msgstr ""
 
 #: forward
@@ -834,12 +868,16 @@ msgstr ""
 msgid "today"
 msgstr ""
 
+#: todayWithTime
+msgid "today {{ time }}"
+msgstr ""
+
 #: yesterday
 msgid "yesterday"
 msgstr ""
 
-#: incorrectDate
-msgid "(incorrect date)"
+#: yesterdayWithTime
+msgid "yesterday {{ time }}"
 msgstr ""
 
 #. #Phone Context Menu
@@ -856,6 +894,7 @@ msgid "View contact"
 msgstr ""
 
 #: call
+msgctxt "call"
 msgid "Call"
 msgstr ""
 
@@ -976,6 +1015,10 @@ msgstr ""
 msgid "SIM {{id}}, {{detailString}}"
 msgstr ""
 
+#: dsds-unknown-sim
+msgid "unknown SIM"
+msgstr ""
+
 #: dsds-notification-title-with-sim
 msgid "({{sim}}) {{sender}}"
 msgstr ""
@@ -994,16 +1037,6 @@ msgstr ""
 
 #: send-button-sim-indication.ariaLabel
 msgid "using SIM {{n}}"
-msgstr ""
-
-#. # Date formats specific for SMS app
-#. # LOCALIZATION NOTE (expiry-date-format): this is a date format.
-#. # See http://pubs.opengroup.org/onlinepubs/007908799/xsh/strftime.html
-#. # %A is the full weekday name from shared/date/date.properties and it might
-#. # not be in the correct grammatical case. To work around this issue, you can
-#. # use a different format like "%m/%d/%Y".
-#: expiry-date-format
-msgid "%A, %b %e"
 msgstr ""
 
 #. # Labels for screen reader
@@ -1027,6 +1060,25 @@ msgstr ""
 msgid "Draft"
 msgstr ""
 
+#: actionsButton.ariaLabel
+msgid "Actions"
+msgstr ""
+
+#: settingsButton.ariaLabel
+msgctxt "settingsButton.ariaLabel"
+msgid "Settings"
+msgstr ""
+
+#: composeLink.ariaLabel
+msgctxt "composeLink.ariaLabel"
+msgid "New message"
+msgstr ""
+
+#: callButton.ariaLabel
+msgctxt "callButton.ariaLabel"
+msgid "Call"
+msgstr ""
+
 #. # Message statuses
 #: message-delivery-status-sending
 msgid "Sending…"
@@ -1042,6 +1094,57 @@ msgstr ""
 
 #: message-delivery-status-error.ariaLabel
 msgid "Error"
+msgstr ""
+
+#. # Late arrival notices
+#: late-notice-label.ariaLabel
+msgid "Late arrival"
+msgstr ""
+
+#: late-arrival-notice-in-months
+msgid "{[ plural(lateness) ]}"
+msgstr ""
+
+#: late-arrival-notice-in-months[zero]
+msgctxt "late-arrival-notice-in-months[zero]"
+msgid "{{ lateness }}mth late"
+msgstr ""
+
+#: late-arrival-notice-in-months[one]
+msgctxt "late-arrival-notice-in-months[one]"
+msgid "{{ lateness }}mth late"
+msgstr ""
+
+#: late-arrival-notice-in-months[two]
+msgctxt "late-arrival-notice-in-months[two]"
+msgid "{{ lateness }}mths late"
+msgstr ""
+
+#: late-arrival-notice-in-months[few]
+msgctxt "late-arrival-notice-in-months[few]"
+msgid "{{ lateness }}mths late"
+msgstr ""
+
+#: late-arrival-notice-in-months[many]
+msgctxt "late-arrival-notice-in-months[many]"
+msgid "{{ lateness }}mths late"
+msgstr ""
+
+#: late-arrival-notice-in-months[other]
+msgctxt "late-arrival-notice-in-months[other]"
+msgid "{{ lateness }}mths late"
+msgstr ""
+
+#: late-arrival-notice-in-days
+msgid "{{ lateness }}d late"
+msgstr ""
+
+#: late-arrival-notice-in-hours
+msgid "{{ lateness }}h late"
+msgstr ""
+
+#: late-arrival-notice-in-minutes
+msgid "{{ lateness }}m late"
 msgstr ""
 
 #. # Modal dialog strings

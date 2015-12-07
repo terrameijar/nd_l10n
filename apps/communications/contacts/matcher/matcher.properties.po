@@ -1,93 +1,94 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: FirefoxOS\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-09 16:39+0100\n"
-"PO-Revision-Date: 2015-07-19 17:13+0200\n"
-"Last-Translator: Terrameijar <terrameijar@gmail.com>\n"
-"Language-Team: Ndebele <contact@mozilla-zimbabwe.org>\n"
+"POT-Creation-Date: 2015-12-07 16:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nd\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Pootle-Path: "
+"/nd/firefoxos/apps/communications/contacts/matcher/matcher.properties.po\n"
+"X-Pootle-Revision: 0\n"
 
 #. # Wait
 #: waitDuplicateContacts
 msgid "Looking for duplicate contacts"
-msgstr "Sisadinga ama-contact aphindiweyo"
+msgstr ""
 
 #: waitMergingDuplicateContacts
 msgid "Merging duplicate contacts"
-msgstr "Sisahlanganisa ama-contact aphindiweyo"
+msgstr ""
 
 #. # Alert
 #: alertNoDuplicateContacts
 msgid "No duplicate contacts found"
-msgstr "Akulama-contacts aphindiweyo"
+msgstr ""
 
 #: curtainCancel
 msgid "Cancel"
-msgstr "Khansela"
+msgstr ""
 
 #: merge
 msgid "Merge"
-msgstr "Hlanganisa"
+msgstr ""
 
 #: close
 msgid "Ignore"
-msgstr "Tshiya"
+msgstr ""
 
 #: mergeDuplicateTitle
 msgid "Merge duplicates"
-msgstr "Hlanganisa aphindiweyo"
+msgstr ""
 
-#: suggestedDuplicateContacts
+#: suggestedDuplicatesMessage
 msgid "Suggested duplicate contacts for {{name}}"
-msgstr "Sibona angani u-{{name}} angabe ephindiwe"
+msgstr ""
 
 #: mergeActionButtonLabel
 msgid "{[ plural(n) ]}"
-msgstr "{[ plural(n) ]}"
+msgstr ""
 
 #: mergeActionButtonLabel[zero]
 msgid "No contacts selected"
-msgstr "Akula-contact ekhethiweyo"
+msgstr ""
 
 #: mergeActionButtonLabel[one]
 msgid "Merge with {{n}} contact"
-msgstr "Hlanganisa le-contact eyi-{{n}}"
+msgstr ""
 
 #: mergeActionButtonLabel[two]
 msgctxt "mergeActionButtonLabel[two]"
 msgid "Merge with {{n}} contacts"
-msgstr "Hlanganisa lama-contact angu-{{n}}"
+msgstr ""
 
 #: mergeActionButtonLabel[few]
 msgctxt "mergeActionButtonLabel[few]"
 msgid "Merge with {{n}} contacts"
-msgstr "Hlanganisa lama-contacts angu-{{n}}"
+msgstr ""
 
 #: mergeActionButtonLabel[many]
 msgctxt "mergeActionButtonLabel[many]"
 msgid "Merge with {{n}} contacts"
-msgstr "Hlanganisa lama-contacts angu-{{n}}"
+msgstr ""
 
 #: mergeActionButtonLabel[other]
 msgctxt "mergeActionButtonLabel[other]"
 msgid "Merge with {{n}} contacts"
-msgstr "Hlanganisa lama-contacts angu-{{n}}"
+msgstr ""
 
 #: duplicatesFoundTitle
 msgid "Duplicates found"
-msgstr "Kulama-contacts aphindiweyo"
+msgstr ""
 
-#: duplicatesFoundMessage
+#: foundDuplicatesMessage
 msgid "{{name}} duplicates information in the following contacts"
-msgstr "{{name}} iphindwe kuma-contacts alandelayo"
+msgstr ""
 
 #: ok
 msgid "OK"
-msgstr "Kulungile"
+msgstr ""

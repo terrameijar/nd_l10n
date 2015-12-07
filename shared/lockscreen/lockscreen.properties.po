@@ -1,9 +1,8 @@
-#. extracted from ./shared/lockscreen/lockscreen.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-27 07:48+0000\n"
+"POT-Creation-Date: 2015-12-07 16:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,9 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.13.0-rc1\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Pootle-Path: /nd/firefoxos/shared/lockscreen/lockscreen.properties.po\n"
+"X-Pootle-Revision: 0\n"
 
 #: airplaneMode
 msgid "Airplane mode"
@@ -102,31 +101,31 @@ msgstr ""
 
 #: charging-minutes[zero]
 msgctxt "charging-minutes[zero]"
-msgid "{{ level }}% Charged ({{ minutes }} mins remaining)"
+msgid "{{ level }}% Charged ({{ minutes }} mins until fully charged)"
 msgstr ""
 
 #: charging-minutes[one]
-msgid "{{ level }}% Charged ({{ minutes }} min remaining)"
+msgid "{{ level }}% Charged ({{ minutes }} min until fully charged)"
 msgstr ""
 
 #: charging-minutes[two]
 msgctxt "charging-minutes[two]"
-msgid "{{ level }}% Charged ({{ minutes }} mins remaining)"
+msgid "{{ level }}% Charged ({{ minutes }} mins until fully charged)"
 msgstr ""
 
 #: charging-minutes[few]
 msgctxt "charging-minutes[few]"
-msgid "{{ level }}% Charged ({{ minutes }} mins remaining)"
+msgid "{{ level }}% Charged ({{ minutes }} mins until fully charged)"
 msgstr ""
 
 #: charging-minutes[many]
 msgctxt "charging-minutes[many]"
-msgid "{{ level }}% Charged ({{ minutes }} mins remaining)"
+msgid "{{ level }}% Charged ({{ minutes }} mins until fully charged)"
 msgstr ""
 
 #: charging-minutes[other]
 msgctxt "charging-minutes[other]"
-msgid "{{ level }}% Charged ({{ minutes }} mins remaining)"
+msgid "{{ level }}% Charged ({{ minutes }} mins until fully charged)"
 msgstr ""
 
 #: charging-hours
@@ -136,29 +135,35 @@ msgstr ""
 
 #: charging-hours[zero]
 msgctxt "charging-hours[zero]"
-msgid "{{ level }}% Charged ({{ hours }}h {{ minutes }} mins remaining)"
+msgid ""
+"{{ level }}% Charged ({{ hours }}h {{ minutes }} mins until fully charged)"
 msgstr ""
 
 #: charging-hours[one]
-msgid "{{ level }}% Charged ({{ hours }}h {{ minutes }} min remaining)"
+msgid ""
+"{{ level }}% Charged ({{ hours }}h {{ minutes }} min until fully charged)"
 msgstr ""
 
 #: charging-hours[two]
 msgctxt "charging-hours[two]"
-msgid "{{ level }}% Charged ({{ hours }}h {{ minutes }} mins remaining)"
+msgid ""
+"{{ level }}% Charged ({{ hours }}h {{ minutes }} mins until fully charged)"
 msgstr ""
 
 #: charging-hours[few]
 msgctxt "charging-hours[few]"
-msgid "{{ level }}% Charged ({{ hours }}h {{ minutes }} mins remaining)"
+msgid ""
+"{{ level }}% Charged ({{ hours }}h {{ minutes }} mins until fully charged)"
 msgstr ""
 
 #: charging-hours[many]
 msgctxt "charging-hours[many]"
-msgid "{{ level }}% Charged ({{ hours }}h {{ minutes }} mins remaining)"
+msgid ""
+"{{ level }}% Charged ({{ hours }}h {{ minutes }} mins until fully charged)"
 msgstr ""
 
 #: charging-hours[other]
 msgctxt "charging-hours[other]"
-msgid "{{ level }}% Charged ({{ hours }}h {{ minutes }} mins remaining)"
+msgid ""
+"{{ level }}% Charged ({{ hours }}h {{ minutes }} mins until fully charged)"
 msgstr ""

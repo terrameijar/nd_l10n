@@ -1,9 +1,8 @@
-#. extracted from ./apps/system/system.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-27 07:48+0000\n"
+"POT-Creation-Date: 2015-12-07 16:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,9 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.13.0-rc1\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Pootle-Path: /nd/firefoxos/apps/system/system.properties.po\n"
+"X-Pootle-Revision: 1642781\n"
 
 #: ok
 msgctxt "ok"
@@ -93,45 +92,45 @@ msgstr ""
 msgid "Unknown track"
 msgstr ""
 
-#: wifiButton-on
+#: quick-settings-wifiButton-on.ariaLabel
 msgid "Wi-Fi on"
 msgstr ""
 
-#: wifiButton-on-initializing
+#: quick-settings-wifiButton-on-initializing.ariaLabel
 msgid "Wi-Fi on, initializing"
 msgstr ""
 
-#: wifiButton-off
+#: quick-settings-wifiButton-off.ariaLabel
 msgid "Wi-Fi off"
 msgstr ""
 
-#: dataButton-on
+#: quick-settings-dataButton-on.ariaLabel
 msgid "Data {{type}} on"
 msgstr ""
 
-#: dataButton-off
+#: quick-settings-dataButton-off.ariaLabel
 msgid "Data {{type}} off"
 msgstr ""
 
-#: bluetoothButton-on
-msgctxt "bluetoothButton-on"
+#: quick-settings-bluetoothButton-on.ariaLabel
+msgctxt "quick-settings-bluetoothButton-on.ariaLabel"
 msgid "Bluetooth on"
 msgstr ""
 
-#: bluetoothButton-on-initializing
+#: quick-settings-bluetoothButton-on-initializing.ariaLabel
 msgid "Bluetooth on, initializing"
 msgstr ""
 
-#: bluetoothButton-off
+#: quick-settings-bluetoothButton-off.ariaLabel
 msgid "Bluetooth off"
 msgstr ""
 
-#: airplaneMode-on
-msgctxt "airplaneMode-on"
+#: quick-settings-airplaneMode-on.ariaLabel
+msgctxt "quick-settings-airplaneMode-on.ariaLabel"
 msgid "Airplane mode on"
 msgstr ""
 
-#: airplaneMode-off
+#: quick-settings-airplaneMode-off.ariaLabel
 msgid "Airplane mode off"
 msgstr ""
 
@@ -149,13 +148,8 @@ msgid "SIM {{id}}"
 msgstr ""
 
 #. # status bar text label
-#: statusbarLabel
+#: statusbarOperator
 msgid "{{date}}, {{operator}}"
-msgstr ""
-
-#. # see http://pubs.opengroup.org/onlinepubs/007908799/xsh/strftime.html
-#: statusbarDateFormat
-msgid "%b %e"
 msgstr ""
 
 #. # The following statusbar messages are for screen reader accessibility.
@@ -171,48 +165,57 @@ msgstr ""
 msgid "Battery {{level}} percent, charging"
 msgstr ""
 
-#: statusbarFlightMode.ariaLabel
-msgctxt "statusbarFlightMode.ariaLabel"
+#: statusbarAirplaneMode.ariaLabel
+msgctxt "statusbarAirplaneMode.ariaLabel"
 msgid "Airplane mode on"
 msgstr ""
 
-#: statusbarWiFiConnecting
+#: statusbarWiFiConnecting.ariaLabel
 msgid "Wi-Fi: connecting"
 msgstr ""
 
-#: statusbarWiFiConnected
+#: statusbarWiFiConnected.ariaLabel
 msgid "Wi-Fi: {{level}} of 4 bars"
 msgstr ""
 
-#: statusbarSignal
+#: statusbarSignal.ariaLabel
 msgid "{{operator}} network, {{level}} of 5 bars"
 msgstr ""
 
-#: statusbarSignalRoaming
+#: statusbarSignalRoaming.ariaLabel
 msgid "{{operator}} network (roaming), {{level}} of 5 bars"
 msgstr ""
 
-#: statusbarSignalNoneSearching
+#: statusbarSignalNoneSearching.ariaLabel
 msgid "Searching… Emergency calls only"
 msgstr ""
 
-#: statusbarHeadphones.ariaLabel
+#: statusbarEmergencyCallsOnly.ariaLabel
+msgid "Emergency call only"
+msgstr ""
+
+#: statusbarSignalNoSimCard.ariaLabel
+msgctxt "statusbarSignalNoSimCard.ariaLabel"
+msgid "No SIM card"
+msgstr ""
+
+#: statusbarHeadphone.ariaLabel
 msgid "Headphones on"
 msgstr ""
 
-#: statusbarBluetoothHeadphones.ariaLabel
+#: statusbarBluetoothHeadphone.ariaLabel
 msgid "Bluetooth headphones on"
 msgstr ""
 
-#: statusbarBluetoothTransferring.ariaLabel
+#: statusbarBluetoothTransfer.ariaLabel
 msgid "Bluetooth transfer active"
 msgstr ""
 
-#: statusbarIconOn-tethering
+#: statusbarIconOn-tethering.ariaLabel
 msgid "Tethering on"
 msgstr ""
 
-#: statusbarIconOnActive-tethering
+#: statusbarIconOnActive-tethering.ariaLabel
 msgid "Tethering on, active"
 msgstr ""
 
@@ -220,20 +223,20 @@ msgstr ""
 msgid "Alarm on"
 msgstr ""
 
-#: statusbarIconOn-bluetooth
-msgctxt "statusbarIconOn-bluetooth"
+#: statusbarIconOn-bluetooth.ariaLabel
+msgctxt "statusbarIconOn-bluetooth.ariaLabel"
 msgid "Bluetooth on"
 msgstr ""
 
-#: statusbarIconOnActive-bluetooth
+#: statusbarIconOnActive-bluetooth.ariaLabel
 msgid "Bluetooth on, active"
 msgstr ""
 
-#: statusbarIconOn-mute
+#: statusbarIconOn-mute.ariaLabel
 msgid "Mute on"
 msgstr ""
 
-#: statusbarIconOn-vibration
+#: statusbarIconOn-vibration.ariaLabel
 msgid "Vibration on"
 msgstr ""
 
@@ -249,7 +252,7 @@ msgstr ""
 msgid "USB on"
 msgstr ""
 
-#: statusbarForwarding
+#: statusbarCallForwarding
 msgid "Call forwarding on"
 msgstr ""
 
@@ -261,8 +264,8 @@ msgstr ""
 msgid "NFC on"
 msgstr ""
 
-#: statusbarDownloads.ariaLabel
-msgctxt "statusbarDownloads.ariaLabel"
+#: statusbarDownload.ariaLabel
+msgctxt "statusbarDownload.ariaLabel"
 msgid "Downloading…"
 msgstr ""
 
@@ -270,8 +273,12 @@ msgstr ""
 msgid "Networking on"
 msgstr ""
 
-#: statusbarEmergencyCBNotification.ariaLabel
+#: statusbarEmergencyCallback.ariaLabel
 msgid "Emergency callback"
+msgstr ""
+
+#: statusbarNoNotifications
+msgid "No Notifications"
 msgstr ""
 
 #: statusbarNotifications
@@ -330,6 +337,10 @@ msgstr ""
 #: statusbarNotifications-unread.ariaLabel[other]
 msgctxt "statusbarNotifications-unread.ariaLabel[other]"
 msgid "{{n}} unread notifications"
+msgstr ""
+
+#: statusbarDebugging.ariaLabel
+msgid "Debugging"
 msgstr ""
 
 #. # notifications
@@ -460,6 +471,10 @@ msgstr ""
 msgid "Power off"
 msgstr ""
 
+#: viewSource
+msgid "View source"
+msgstr ""
+
 #. # cards view
 #: no-recent-app-windows
 msgid "Your recent app windows show up here"
@@ -496,6 +511,7 @@ msgid "Don’t allow"
 msgstr ""
 
 #: allow
+msgctxt "allow"
 msgid "Allow"
 msgstr ""
 
@@ -591,27 +607,22 @@ msgid "bytes"
 msgstr ""
 
 #: kB
-msgctxt "kB"
 msgid "KB"
 msgstr ""
 
 #: MB
-msgctxt "MB"
 msgid "MB"
 msgstr ""
 
 #: GB
-msgctxt "GB"
 msgid "GB"
 msgstr ""
 
 #: TB
-msgctxt "TB"
 msgid "TB"
 msgstr ""
 
 #: PB
-msgctxt "PB"
 msgid "PB"
 msgstr ""
 
@@ -641,6 +652,10 @@ msgstr ""
 msgid "Are you sure you want to cancel this install?"
 msgstr ""
 
+#: app-install-download-canceled
+msgid "{{ appName }} download cancelled"
+msgstr ""
+
 #. # LOCALIZATION NOTE (cancel-install*): cancel-install is the string used in
 #. # the title, cancel-install-button is used in the bottom-left button
 #: cancel-install
@@ -658,7 +673,6 @@ msgid "Resume"
 msgstr ""
 
 #: continue
-msgctxt "continue"
 msgid "Continue"
 msgstr ""
 
@@ -692,6 +706,16 @@ msgstr ""
 msgid "{{ appName }} installed. Go to Settings > Language to enable it."
 msgstr ""
 
+#: addon-affects-system
+msgid "This add-on is able to affect your device on a system level."
+msgstr ""
+
+#: addon-disable-instructions2
+msgid ""
+"If this add-on causes a problem, press the power button during start up to "
+"disable all add-ons."
+msgstr ""
+
 #. #setup dialog
 #: setup
 msgid "Setup"
@@ -721,8 +745,19 @@ msgid ""
 "phone for a few minutes."
 msgstr ""
 
+#: wantToReportNow
+msgid ""
+"A problem occurred during the system update and the installation failed. "
+"Would you like to report this as a bug?"
+msgstr ""
+
 #: installNow
 msgid "Install Now"
+msgstr ""
+
+#: report
+msgctxt "report"
+msgid "Report"
 msgstr ""
 
 #: notNow
@@ -730,7 +765,7 @@ msgid "Not Now"
 msgstr ""
 
 #. # the <span> element will be displayed when the download finishes
-#: downloadingUpdateMessage.innerHTML
+#: downloadingUpdateMessage
 msgid "Downloading updates… <span>{{ progress }} downloaded.</span>"
 msgstr ""
 
@@ -762,33 +797,37 @@ msgstr ""
 msgid "There was an error while downloading the updates."
 msgstr ""
 
-#: updateAvailableInfo.innerHTML
-msgctxt "updateAvailableInfo.innerHTML"
+#: updateAvailableInfo
+msgctxt "updateAvailableInfo"
 msgid "{[ plural(n) ]}"
 msgstr ""
 
-#: updateAvailableInfo.innerHTML[one]
+#: updateAvailableInfo[one]
 msgid "{{ n }} update available. <span>Tap for more info.</span>"
 msgstr ""
 
-#: updateAvailableInfo.innerHTML[two]
-msgctxt "updateAvailableInfo.innerHTML[two]"
+#: updateAvailableInfo[two]
+msgctxt "updateAvailableInfo[two]"
 msgid "{{ n }} updates available. <span>Tap for more info.</span>"
 msgstr ""
 
-#: updateAvailableInfo.innerHTML[few]
-msgctxt "updateAvailableInfo.innerHTML[few]"
+#: updateAvailableInfo[few]
+msgctxt "updateAvailableInfo[few]"
 msgid "{{ n }} updates available. <span>Tap for more info.</span>"
 msgstr ""
 
-#: updateAvailableInfo.innerHTML[many]
-msgctxt "updateAvailableInfo.innerHTML[many]"
+#: updateAvailableInfo[many]
+msgctxt "updateAvailableInfo[many]"
 msgid "{{ n }} updates available. <span>Tap for more info.</span>"
 msgstr ""
 
-#: updateAvailableInfo.innerHTML[other]
-msgctxt "updateAvailableInfo.innerHTML[other]"
+#: updateAvailableInfo[other]
+msgctxt "updateAvailableInfo[other]"
 msgid "{{ n }} updates available. <span>Tap for more info.</span>"
+msgstr ""
+
+#: systemUpdateAvailableInfo
+msgid "System update available. <span>Tap for more info.</span>"
 msgstr ""
 
 #: numberOfUpdates
@@ -824,8 +863,36 @@ msgstr ""
 msgid "System update"
 msgstr ""
 
+#: systemUpdateWithVersion
+msgid "System update {{ version }}"
+msgstr ""
+
 #: systemUpdateReady
 msgid "System Update Ready"
+msgstr ""
+
+#: systemUpdateError
+msgid "System Update Error"
+msgstr ""
+
+#: systemUpdateErrorDetails
+msgid "Tap for more details"
+msgstr ""
+
+#: addonUpdate
+msgid "Add-on Updates are Automatic"
+msgstr ""
+
+#: addonUpdateDetails
+msgid "Tap to change these settings"
+msgstr ""
+
+#: addonUpdated
+msgid "{{name}} Updated"
+msgstr ""
+
+#: addonUpdatedDetails
+msgid "Tap to view add-on"
 msgstr ""
 
 #. # LOCALIZATION NOTE (systemUpdateLowBatteryThreshold): {{ threshold }} will be
@@ -840,7 +907,7 @@ msgstr ""
 msgid "Required"
 msgstr ""
 
-#: uncompressingMessage.innerHTML
+#: uncompressingMessage
 msgid "Uncompressing… <span>This can take a few minutes.</span>"
 msgstr ""
 
@@ -893,6 +960,14 @@ msgid ""
 "continue?"
 msgstr ""
 
+#: build-id
+msgid "Build ID: {{ buildid }}"
+msgstr ""
+
+#: view-release-notes
+msgid "View the full list of changes"
+msgstr ""
+
 #. # screenshots
 #: screenshotSaved
 msgid "Screenshot saved to Gallery"
@@ -915,12 +990,20 @@ msgid "Not enough space on memory card"
 msgstr ""
 
 #. # logshake
-#: logsSaved
-msgid "Logs saved to storage"
+#: logsSavedHeader
+msgid "Device logs saved"
+msgstr ""
+
+#: logsSavedBody
+msgid "Tap to share logs"
 msgstr ""
 
 #: logsSaveError
 msgid "Error while saving logs"
+msgstr ""
+
+#: logsShareError
+msgid "Error while sharing logs"
 msgstr ""
 
 #: logsSaving
@@ -937,6 +1020,10 @@ msgstr ""
 
 #: logsSDCardMaybeShared
 msgid "Make sure your SD card is not shared with your computer."
+msgstr ""
+
+#: logsNotFoundError
+msgid "At least one log file could not be read from the filesystem."
 msgstr ""
 
 #. # lock screen
@@ -956,6 +1043,10 @@ msgstr ""
 
 #: camera-a11y-button.ariaLabel
 msgid "Camera"
+msgstr ""
+
+#: next-alarm.ariaLabel
+msgid "Next Alarm"
 msgstr ""
 
 #. # see http://pubs.opengroup.org/onlinepubs/007908799/xsh/strftime.html
@@ -1102,6 +1193,11 @@ msgstr ""
 msgid "Add to home screen"
 msgstr ""
 
+#: pin-to-home-screen
+msgctxt "pin-to-home-screen"
+msgid "Pin"
+msgstr ""
+
 #: share
 msgctxt "share"
 msgid "Share"
@@ -1191,81 +1287,37 @@ msgid "{{name}} just crashed."
 msgstr ""
 
 #: crash-banner-report
+msgctxt "crash-banner-report"
 msgid "Report"
 msgstr ""
 
 #. # bluetooth transfer
-#: bluetooth-sending-progress
-msgid "Sending Bluetooth transfer…"
+#: bluetooth-sending-progress2
+msgid "Sending file…"
 msgstr ""
 
-#: bluetooth-receiving-progress
-msgid "Receiving Bluetooth transfer…"
+#: bluetooth-receiving-progress2
+msgid "Receiving file…"
 msgstr ""
 
 #: acceptFileTransfer
 msgid "Accept Bluetooth file transfer?"
 msgstr ""
 
-#: wantToReceiveFile
-msgid "{{deviceName}} would like to transfer {{fileName}} ({{fileSize}})."
+#: want-to-receive-file
+msgid "{{deviceName}} would like to send you a file. Accept?"
 msgstr ""
 
 #: transfer-confirmation-title
 msgid "{{deviceName}}"
 msgstr ""
 
-#: transfer-confirmation-description
-msgid "Review transfer request."
-msgstr ""
-
-#: byteUnit-B
-msgid "Bytes"
-msgstr ""
-
-#: byteUnit-KB
-msgctxt "byteUnit-KB"
-msgid "KB"
-msgstr ""
-
-#: byteUnit-MB
-msgctxt "byteUnit-MB"
-msgid "MB"
-msgstr ""
-
-#: byteUnit-GB
-msgctxt "byteUnit-GB"
-msgid "GB"
-msgstr ""
-
-#: byteUnit-TB
-msgctxt "byteUnit-TB"
-msgid "TB"
-msgstr ""
-
-#: byteUnit-PB
-msgctxt "byteUnit-PB"
-msgid "PB"
-msgstr ""
-
-#: byteUnit-EB
-msgid "EB"
-msgstr ""
-
-#: byteUnit-ZB
-msgid "ZB"
-msgstr ""
-
-#: byteUnit-YB
-msgid "YB"
-msgstr ""
-
-#. # Localization note (fileSize*): The string is a float.
-#: fileSize
-msgid "{{size}} {{unit}}"
+#: transfer-confirmation-desc
+msgid "Tap to review transfer request."
 msgstr ""
 
 #: deny
+msgctxt "deny"
 msgid "Deny"
 msgstr ""
 
@@ -1277,17 +1329,12 @@ msgstr ""
 msgid "Cancel Bluetooth file transfer?"
 msgstr ""
 
-#: continueFileTransfer
-msgctxt "continueFileTransfer"
-msgid "Continue"
+#: transferHasStartedTitle
+msgid "File transfer has started"
 msgstr ""
 
-#: transfer-has-started-title
-msgid "The transfer has started"
-msgstr ""
-
-#: transfer-has-started-description
-msgid "Check the progress in Notification center"
+#: transferHasStartedDescription
+msgid "Check progress in Notification center"
 msgstr ""
 
 #: transferFinished-sentSuccessful-title
@@ -1298,10 +1345,6 @@ msgstr ""
 msgid "File received"
 msgstr ""
 
-#: transferFinished-sentFailed-title
-msgid "File could not be sent"
-msgstr ""
-
 #: transferFinished-receivedFailed-title
 msgid "File could not be received"
 msgstr ""
@@ -1310,8 +1353,12 @@ msgstr ""
 msgid "Cannot send file right now. Please try again later."
 msgstr ""
 
-#: transferReport-title
-msgid "Transfer report:"
+#: transferFinished-canceled
+msgid "File transfer cancelled"
+msgstr ""
+
+#: transferReportTitle
+msgid "Transfer report"
 msgstr ""
 
 #: transferReport-description
@@ -1350,7 +1397,7 @@ msgstr ""
 #: sdcard-in-use
 msgid ""
 "Bluetooth can not be used while phone is plugged in. Please unplug the phone "
-"to receive file(s)."
+"to receive file."
 msgstr ""
 
 #: sdcard-no-space2
@@ -1405,6 +1452,7 @@ msgstr ""
 
 #. # Security :: SIM PIN lock
 #: noSimCard
+msgctxt "noSimCard"
 msgid "No SIM card"
 msgstr ""
 
@@ -1769,6 +1817,10 @@ msgstr ""
 msgid "Dial from:"
 msgstr ""
 
+#: set-default-action
+msgid "Use from now on"
+msgstr ""
+
 #. # Persona dialog and Identity
 #: persona-signin
 msgid "Sign In"
@@ -1780,10 +1832,55 @@ msgid "Purchase"
 msgstr ""
 
 #. # Remote Debugger Connection Dialog
-#: remoteDebuggerMessage
+#: remoteDebuggerPromptUSB
+msgid "Allow USB debugging connection?"
+msgstr ""
+
+#: remoteDebuggerPromptTCP2
 msgid ""
-"An incoming request to permit remote debugging connection was detected. "
-"Allow connection?"
+"Allow remote debugging connection from "
+"<code>{{host}}:{{port}}</code>?<br/><br/>This connection requires a QR code "
+"to be scanned in order to authenticate the remote device's certificate.  You "
+"can avoid future scans by remembering the device."
+msgstr ""
+
+#. # LOCALIZATION NOTE (remoteDebuggerPrompt-deny): This button will deny an
+#. # an incoming remote debugger connection.
+#: remoteDebuggerPrompt-deny
+msgctxt "remoteDebuggerPrompt-deny"
+msgid "Deny"
+msgstr ""
+
+#. # LOCALIZATION NOTE (remoteDebuggerPrompt-allow): This button will allow an
+#. # an incoming remote debugger connection.
+#: remoteDebuggerPrompt-allow
+msgctxt "remoteDebuggerPrompt-allow"
+msgid "Allow"
+msgstr ""
+
+#. # LOCALIZATION NOTE (remoteDebuggerPrompt-scan): This button will start a QR
+#. # code scanner to authenticate an incoming remote debugger connection.  The
+#. # connection will be allowed assuming the scan succeeds.
+#: remoteDebuggerPrompt-scan
+msgid "Scan"
+msgstr ""
+
+#. # LOCALIZATION NOTE (remoteDebuggerPrompt-scanAndRemember): This button will
+#. # start a QR code scanner to authenticate an incoming remote debugger
+#. # connection.  The connection will be allowed assuming the scan succeeds, and
+#. # the other endpoint's certificate will be saved to skip future scans for this
+#. # client.
+#: remoteDebuggerPrompt-scanAndRemember
+msgid "Scan and Remember"
+msgstr ""
+
+#. # DevTools Authentication
+#. # LOCALIZATION NOTE (devtools-auth-scan2): This header text appears above a live
+#. # video feed that is being actively scanned for QR codes.  The expected QR code
+#. # has already been displayed by the client trying to connect (such as desktop
+#. # Firefox via WebIDE), so you just need to aim this device at the QR code.
+#: devtools-auth-scan2
+msgid "Scanning for the QR code displayed on your other device…"
 msgstr ""
 
 #. # fullscreen permission
@@ -1819,7 +1916,7 @@ msgstr ""
 
 #. # Low device storage
 #: low-device-storage
-msgid "Device space low.\n"
+msgid "Device space low."
 msgstr ""
 
 #. # LOCALIZATION NOTE {{value}} is the amount of remaining free space expressed
@@ -1905,8 +2002,16 @@ msgstr ""
 msgid "Call {{number}}?"
 msgstr ""
 
-#: icc-alertMessage-defaultmessage
-msgid "Sending message"
+#: icc-alertMessage-send-ss
+msgid "Send SS"
+msgstr ""
+
+#: icc-alertMessage-send-ussd
+msgid "Send USSD"
+msgstr ""
+
+#: icc-alertMessage-send-sms
+msgid "Send SMS"
 msgstr ""
 
 #: icc-confirmMessage-defaultmessage
@@ -1952,11 +2057,6 @@ msgstr ""
 
 #: ime-switching-tip
 msgid "Tap to switch input method"
-msgstr ""
-
-#. # Shrinking UI
-#: shrinking-tip
-msgid "Swipe to share"
 msgstr ""
 
 #. # Download Manager
@@ -2082,23 +2182,145 @@ msgstr ""
 msgid "Share Audio"
 msgstr ""
 
-#. # Private Browser
-#: private-window
-msgid "Private Window"
+#: copy-image
+msgid "Copy Image"
 msgstr ""
 
-#: private-window-detail1
-msgid ""
-"The browser won’t keep any browser history, cookies, or temporary Internet "
-"files."
-msgstr ""
-
-#: private-window-detail2
-msgid ""
-"While this device won’t have a record of your browsing history, your "
-"Internet service provider can still track the pages you visit."
+#: copy-link
+msgid "Copy Link"
 msgstr ""
 
 #: okCharsLeft
 msgid "OK ({{n}})"
+msgstr ""
+
+#. # Tracking Protection Notice
+#. # LOCALIZATION NOTE (tracking-notice-header): This string is used as
+#. # title of the dialog that explains this new feature to new users.
+#: tracking-notice-header
+msgid "New! Tracking Protection"
+msgstr ""
+
+#. # LOCALIZATION NOTE (tracking-notice-description-v2): This string is used as
+#. # introduction to the new feature. Link to the feature description in mdn.
+#: tracking-notice-description-v2
+msgid ""
+"This new feature helps protect your browsing activity by preventing "
+"potential trackers from loading."
+msgstr ""
+
+#: tracking-notice-learn-more
+msgid "Learn More"
+msgstr ""
+
+#. # LOCALIZATION NOTE (tracking-protection): Name of the new feature
+#: tracking-protection
+msgid "Tracking Protection"
+msgstr ""
+
+#. # LOCALIZATION NOTE (tracking-protection-setting-description): Shown below the
+#. # toggle that enables/disables the feature
+#: tracking-protection-setting-description
+msgid "Enable this feature for all new windows."
+msgstr ""
+
+#. # LOCALIZATION NOTE (tracking-protection-confirm): Button that confirms that
+#. # the user understood the new feature
+#: tracking-notice-confirm
+msgid "Got It!"
+msgstr ""
+
+#. # Pinning the Web
+#. # LOCALIZATION NOTE (pinning-pin): This string is used as
+#. # button label. "Pin" indicates the action to pin a site.
+#: pinning-pin
+msgctxt "pinning-pin"
+msgid "Pin"
+msgstr ""
+
+#. # LOCALIZATION NOTE (pinning-unpin-site): This string is used as
+#. # button label. "Unpin site" indicates the action to unpin a site.
+#: pinning-unpin-site
+msgid "Unpin site"
+msgstr ""
+
+#. # LOCALIZATION NOTE (pinning-pin-type): This string is used as
+#. # panel title. "Pin" indicates the action to pin a site.{type}
+#. # will be replaced with the url to be pinned.
+#: pinning-pin-type
+msgid "Pin \"{{type}}\""
+msgstr ""
+
+#. # LOCALIZATION NOTE (pinning-unpin-type): This string is used as
+#. # panel title. "Unpin" indicates the action to unpin a site.{type}
+#. # will be replaced with the url to be unpinned.
+#: pinning-unpin-type
+msgid "Unpin \"{{type}}\""
+msgstr ""
+
+#. # LOCALIZATION NOTE (pinning-pin-page): This string is used as
+#. # panel title. "Pin" indicates the action to pin a page.
+#: pinning-pin-page
+msgid "Pin page"
+msgstr ""
+
+#: pinning-unpin-page
+msgid "Unpin page"
+msgstr ""
+
+#. # LOCALIZATION NOTE (pinning-pin-site): This string is used as
+#. # panel title. "Pin" indicates the action to pin a site.
+#: pinning-pin-site
+msgid "Pin site"
+msgstr ""
+
+#. # LOCALIZATION NOTE (from): is followed (on a new line) by the URL source of
+#. # the pin. See also: https://bug1168948.bmoattachments.org/attachment.cgi?id=8639285
+#: from
+msgid "From"
+msgstr ""
+
+#. # LOCALIZATION NOTE: Message shown in a banner after successfully pinning a site
+#: site-pinned-to-home-screen
+msgid "Site pinned to home screen"
+msgstr ""
+
+#. # LOCALIZATION NOTE: Message shown in a banner after unpinning a site
+#: site-unpinned-from-home-screen
+msgid "Site unpinned from home screen"
+msgstr ""
+
+#. # LOCALIZATION NOTE: Message shown in a banner after successfully pinning a page
+#: page-pinned-to-home-screen
+msgid "Page pinned to home screen"
+msgstr ""
+
+#. # LOCALIZATION NOTE: Message shown in a banner after unpinning a page
+#: page-unpinned-from-home-screen
+msgid "Page unpinned from home screen"
+msgstr ""
+
+#. # LOCALIZATION NOTE (or): divider between pinning a page and a site.
+#. # See also: https://bug1214242.bmoattachments.org/attachment.cgi?id=8673636
+#: or
+msgid "or"
+msgstr ""
+
+#. # Multi-Screen
+#: multiscreen-pick
+msgid "Choose an external display"
+msgstr ""
+
+#. # Achivements
+#: achievements-add-on-all-star-name
+msgid "Add-on All-Star"
+msgstr ""
+
+#: achievements-add-on-all-star-description
+msgid "Use Customizer to create your own add-on"
+msgstr ""
+
+#. # View Source
+#: viewSourceHeader
+msgid "View Source"
 msgstr ""

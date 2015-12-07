@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: FirefoxOS\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-12 10:45+0000\n"
-"PO-Revision-Date: 2015-04-21 23:50+0200\n"
-"Last-Translator: Terrameijar <terrameijar@gmail.com>\n"
-"Language-Team: Ndebele <contact@mozilla-zimbabwe.org>\n"
+"POT-Creation-Date: 2015-12-07 16:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nd\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
-"X-Accelerator-Marker: &\n"
-"X-Merge-On: location\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Pootle-Path: /nd/firefoxos/apps/video/video.properties.po\n"
+"X-Pootle-Revision: 1642785\n"
 
 #: done
 msgid "Done"
@@ -98,6 +98,7 @@ msgid "Videos"
 msgstr "Ama-vidiyo"
 
 #: cancel
+#, fuzzy
 msgctxt "cancel"
 msgid "Cancel"
 msgstr "Khansela"
@@ -152,7 +153,7 @@ msgstr "Gcina"
 
 #: saved
 msgid "Saved {{title}} to Video"
-msgstr "Igcinwe kuma-Video"
+msgstr "{{title}}Igcinwe kuma-Video"
 
 #: error-network
 msgid "The video could not be downloaded because of a network error."
@@ -179,6 +180,7 @@ msgid "Another app is currently using the video player."
 msgstr "Kuleyinye i-app esebenzisa i-video player."
 
 #: overlay-cancel-button
+#, fuzzy
 msgctxt "overlay-cancel-button"
 msgid "Cancel"
 msgstr "Khansela"
@@ -251,11 +253,10 @@ msgstr "ZB"
 msgid "YB"
 msgstr "YB"
 
-#. # Header format used in thumbnail view
-#. # see http://pubs.opengroup.org/onlinepubs/007908799/xsh/strftime.html
-#: date-group-header
-msgid "%B %Y"
-msgstr "%B %Y"
+#. # Localization note (fileSize): {{size}} is a floating number with 2 decimal places
+#: fileSize
+msgid "{{size}} {{unit}}"
+msgstr ""
 
 #: share
 msgctxt "share"
@@ -295,10 +296,6 @@ msgstr "Yabelana"
 #: info-view.ariaLabel
 msgid "Info"
 msgstr "Info"
-
-#: options-view.ariaLabel
-msgid "Options"
-msgstr "Ongakukhetha"
 
 #: confirm-dialog.ariaLabel
 msgid "Confirm"
